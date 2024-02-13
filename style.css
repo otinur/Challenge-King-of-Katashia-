@@ -192,8 +192,8 @@ html{
 }
 .detelis-all-card{
     display: grid;
-    grid-template-columns: repeat(4, minmax(0,4fr));
-    gap: .7rem;
+    grid-template-columns: repeat(3, minmax(0,3fr));
+    gap: 2rem;
   
 }
 .detelis-card-img{
@@ -424,7 +424,8 @@ html{
 }
 @media (max-width:992px){
     .detelis-all-card{
-        grid-template-columns: repeat(3, minmax(0,3fr));
+        grid-template-columns: repeat(2, minmax(0,2fr));
+        gap: 1rem;
     }
 }
 @media (max-width:768px){
