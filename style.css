@@ -62,6 +62,23 @@ html{
 /* all design code starts here  */
 /* nav section design starts here  */
 
+.navbar-brand{
+    width: 70px;
+    height: 80px;
+}
+.nav-item{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    transition: .4s transform;
+    transform: scale(1);
+}
+.nav-item:hover{
+    transform: scale(1.1);
+    transition: .4s all;
+}
+
+
+/* 
 .nav-all{
     max-width: 100%;
     height: 120px;
@@ -101,7 +118,7 @@ html{
    transform: scale(1.1);
    transition: .4s all;
    color: #DA9A29;
-}
+} */
 /* nav section design ends here  */
 
 /* header banner design starts here  */
@@ -230,7 +247,7 @@ html{
 }
 .detelis-card-desc .btn:hover{
     color: #000;
-    background-color: #DA9A29;
+    background-color: #00712F;
     transition: .6s all;
 }
 
@@ -239,17 +256,6 @@ html{
 /* bootstrap carousel design starts here */
 
 
-.carousel-item{
-    width: 100%;
-    height: 100%;
-}
-.carousel-item img{
-    width: 100%;
-    height: 100%;
-}
-.carousel-inner{
-    background-color: #EEEEEE;
-}
 
 
 /* bootstrap carousel design ends here */
@@ -326,19 +332,50 @@ html{
     padding: 1rem;
     font-size: 1.1rem;
     border-radius: .4rem;
-    border: none;
+    /* border: none; */
     margin:.5rem 0 ;
-    
+    background-color: #FFFF;
+    color: #000;
 }
 .sahin-btn:hover{
-    background-color: #DA9A29;
+    background-color: #00712F;
     transition: .6s all;
     color: #ffff;
 }
 
 /* sahin design ends here  */
 
+/* hero section design starts here  */
 
+.hero-img{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,2fr));
+   
+}
+.main{
+    padding: 1rem;
+}
+.hero-desc{
+    padding: 1rem;
+    background-color: gray;
+}
+.hero-desc p{
+    font-size: 1.2rem;
+}
+.hero-photo img{
+    width: 100%;
+    height: 100%;
+}
+
+.detelis-all h2{
+    font-size: 2.5rem;
+    font-family: 'Italianno', cursive;
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+/* hero section design ends here  */
 /* footer section design starts here  */
 
 .footer-main{
@@ -379,7 +416,11 @@ html{
 /* responsive design starts here  */
 
 @media (max-width:1080px){
-    
+    .hero-img{
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0,1fr));
+       
+    }
 }
 @media (max-width:992px){
     .detelis-all-card{
