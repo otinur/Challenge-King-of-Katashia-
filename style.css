@@ -1,0 +1,493 @@
+
+/*
+font-family: 'Italianno', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ysabeau Infant', sans-serif; 
+*/
+
+/* common code and reset code starts here  */
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    cursor: pointer;
+}
+main{
+    background-color: #F7F7F7;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+
+.container{
+    max-width: 1232px;
+    height: auto;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.marquee-header-banner{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F1F1F1;
+    height: 110px;
+    width: 100%;
+}
+.marquee-all-img{
+    height: 100px;
+    width: 120px;
+   
+    display: grid;
+    grid-template-columns: repeat(35,mimmax(0,35fr));
+}
+.marquee-all-img img{
+    width: 100%;
+    height: 100%;
+  
+}
+
+
+/* common code and reset code ends here  */
+
+/* all design code starts here  */
+/* nav section design starts here  */
+
+.nav-all{
+    max-width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 1rem;
+}
+.nav-logo{
+    height: 80px;
+    width: 80px;
+    margin: .3rem 0;
+   
+}
+.nav-logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: none;
+}
+.nav-menu{
+   font-size: 1.1rem;
+   align-items: center;
+   margin: 2rem 0;
+}
+.nav-menu a{
+    text-decoration:none;
+    margin: 1rem;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-weight:600;
+    transition: .4s transform;
+    transform: scale(1);
+}
+.nav-menu a:hover{
+   transform: scale(1.1);
+   transition: .4s all;
+   color: #DA9A29;
+}
+/* nav section design ends here  */
+
+/* header banner design starts here  */
+.header-banner{
+    background-color: #EEEEEE;
+}
+.header-banner img{
+    height: 100%;
+    width: 100%;
+}
+
+/* header banner design ends here  */
+
+/* album design starts here  */
+
+.album-banner img{
+    height: 100%;
+    width: 100%;
+}
+
+/* album photo design starts here  */
+
+.main{
+    padding: 1rem;
+}
+.main-album-h1{
+    font-size: 2.5rem;
+    font-family: 'Italianno', cursive;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.album-photo1-all{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,3fr));
+    gap: 2rem;
+    
+}
+.album-photo1-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: .6rem;
+    opacity: .8;
+}
+.album-photo1-img img:hover{
+    transition: .4s all;
+    opacity: 1;
+}
+.album-photo1 h1{
+    margin: 2rem 0 1rem 0;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Italianno', cursive;
+}
+
+/* album photo design ends here  */
+
+/* album design ends here  */
+
+/* work design starts here */
+
+
+
+/* work design ends here */
+
+/* parsonal detelis design starts here  */
+
+.detelis-main{
+    padding: 1rem;
+   
+}
+.detelis-all-card{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0,4fr));
+    gap: .7rem;
+  
+}
+.detelis-card-img{
+    box-shadow: 0 2px 2px 2px gray;
+    padding: .6rem;
+    border: none;
+    width: 18rem;
+    border-radius: .4rem;
+    background-color:#FFFFFF;
+    transition: .4s transform;
+    transform: scale(.9);
+}
+.detelis-card-img:hover{
+    transform: scale(1);
+}
+.detelis-card-img img{
+    height:18rem;
+    width: 100%;
+    display: inline-block;
+    border-radius: .4rem;
+    
+   
+}
+.detelis-card-desc h2{
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: .5rem 0;
+}
+.detelis-card-desc p{
+    font-size: 1.1rem;
+  
+}
+.detelis-card-desc .p{
+    margin-bottom:.5rem ;
+}
+.detelis-card-desc .btn{
+    border: none;
+    padding: .5rem;
+    border-radius: .3rem;
+    margin: .4rem 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 1px 1px 1px #F7F7F7;
+    /* background-color: #003D60; */
+    /* background-color: #F7F7F7; */
+    color: #000;
+}
+.detelis-card-desc .btn-margin{
+    margin-left: .4em;
+}
+.detelis-card-desc .btn:hover{
+    color: #000;
+    background-color: #DA9A29;
+    transition: .6s all;
+}
+
+/* parsonal detelis design ends here  */
+
+/* bootstrap carousel design starts here */
+
+
+.carousel-item{
+    width: 100%;
+    height: 100%;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+}
+.carousel-inner{
+    background-color: #EEEEEE;
+}
+
+
+/* bootstrap carousel design ends here */
+
+/* sahin design starts here  */
+
+.sahin-main{
+    padding: 1rem;
+   
+   
+}
+.sahin-main h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Italianno', cursive;
+}
+.sahin-main1{
+   
+    width: 72%; 
+    transform: scale(.97);
+    transition: .4s transform; 
+}
+.sahin-main1:hover{
+    transform: scale(1);
+  
+}
+
+.sahin-desc{
+    padding: 1rem;
+    box-shadow: 1px 2px 3px 3px gray;
+    height: auto;
+    background-color:#FFFFFF;
+}
+.sahin-desc p a{
+    text-decoration: none;
+    color: #000;
+}
+.sahin-desc p a:hover{
+    text-decoration: underline;
+}
+.sahin-desc h2{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 2rem 0 ;
+}
+.sahin-desc p{
+    margin: 1rem 0;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.sahin-main2{
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 1px 2px 3px 3px gray;
+    margin-top: 1rem;
+    width: 72%;
+    transform: scale(.97);
+    transition: .4s transform; 
+    background-color:#FFFFFF;
+}
+.sahin-main2:hover{
+    transform: scale(1);
+  
+}
+.sahin-contact a{
+    font-size: 2rem;
+    color: #000;
+    margin: 1rem ;
+}
+.sahin-btn{
+    padding: 1rem;
+    font-size: 1.1rem;
+    border-radius: .4rem;
+    border: none;
+    margin:.5rem 0 ;
+    
+}
+.sahin-btn:hover{
+    background-color: #DA9A29;
+    transition: .6s all;
+    color: #ffff;
+}
+
+/* sahin design ends here  */
+
+
+/* footer section design starts here  */
+
+.footer-main{
+    padding: 1rem;
+    background-color: #06083B;
+    color: #ffff;
+}
+.footer-all{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,2fr));
+    gap: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+.footer-desc-h1{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.footer-desc-p{
+    margin: 1rem 0;
+}
+.footer-link-h1{
+    margin-bottom:2rem ;
+    /* margin-left: 1rem; */
+    font-size: 2rem;
+    font-weight: bold;
+}
+.footer-all-link a{
+    margin: 0 1rem;
+    font-size: 2rem;
+}
+
+
+/* footer section design ends here  */
+
+/* all design code ends here  */
+
+/* responsive design starts here  */
+
+@media (max-width:1080px){
+    
+}
+@media (max-width:992px){
+    .detelis-all-card{
+        grid-template-columns: repeat(3, minmax(0,3fr));
+    }
+}
+@media (max-width:768px){
+    .nav-all{
+        text-align: center;
+        height: auto;
+        display: flex;
+        flex-direction: column;  
+    }
+    .nav-logo{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .nav-menu a{
+       /* font-size: 1rem; */
+       margin: .5rem;
+    }
+    .album-photo1-all{
+        display: grid;
+        grid-template-columns: repeat(2,minmax(0,2fr));
+        gap: 2rem;
+        
+    }
+    .detelis-all-card{
+        grid-template-columns: repeat(2, minmax(0,2fr));
+        width: 100%;
+    }
+    .sahin-contact h1{
+        font-size: 2.3rem;
+    }
+    .sahin-btn{
+        padding: .8rem;
+        font-size: 1rem;
+        border-radius: .4rem;
+        border: none;
+        
+    }
+    .sahin-main2{
+        width: 80%;
+        
+    }
+    .sahin-main1{
+        width: 80%;  
+    }
+    .sahin-desc h2{
+        font-size: 1.8rem;
+    }
+}
+@media (max-width:600px){
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-all{
+        grid-template-columns: repeat(1, minmax(0,1fr));
+        gap: 1rem;
+        margin: 0 auto;
+    }
+    .footer-link-h1{
+        margin-bottom:2rem ;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .footer-all-link a{
+        margin: 0 1rem;
+        font-size: 2rem;
+    }
+    .footer-desc-h1{
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+    }
+    .footer-desc-p{
+        margin:1rem 0;
+    }
+    .detelis-all-card{
+        grid-template-columns: repeat(1, minmax(0,1fr));
+        width: 100%;
+    }
+    .sahin-main2{
+        width: 90%;   
+    }
+    .sahin-main1{
+        width: 90%;  
+    }
+    .detelis-card-img{
+        width: 20rem;
+    }
+    .sahin-desc h2{
+        font-size: 1.5rem;
+    }
+    .sahin-main h1{
+        font-size: 2rem;
+    }
+    
+}
+@media (max-width:400px){
+    .sahin-desc h2{
+        font-size: 1.3rem;
+    }
+    .sahin-main h1{
+        font-size: 1.5rem;
+    }
+}
+
+
+/* responsive design ends here  */
